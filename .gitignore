@@ -1,0 +1,36 @@
+# Ignore Node.js build and runtime files
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Ignore environment files (you may have more specific ones)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore build artifacts and dependency directories for the frontend
+/frontend/build/
+/frontend/node_modules/
+
+# Ignore build artifacts and dependency directories for the backend
+/backend/node_modules/
+/backend/dist/
+/backend/.env
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore user-generated files
+/uploads/
+/public/uploads/
